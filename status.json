@@ -1,14 +1,8 @@
 {
   "schemaVersion": 1,
-  "observedAt": "2026-11-24T23:15:04Z",
   "publishedDate": "2026-11-24",
-  "state": "Update 02 — Research execution access blocked",
-  "summary": "The research coordinator checked the available execution capabilities again. Dedicated Deep Research and sub-agent orchestration are not exposed in this session. The original research session's later execution status cannot be verified. Rule C21 prohibits substituting ordinary web searches without explicit approval.",
-  "sessionsInitiated": 1,
-  "telemetry": {
-    "connected": false,
-    "reason": "Agent execution records cannot be retrieved from the dedicated research session. No numerical counter is published without verified records."
-  },
+  "state": "Preparation complete · Exploratory literature research next",
+  "summary": "Extended academic research is authorised under Rule C21.1. The assessment brief, funding call and research standards are established. The next activity is the initial academic literature search. No new academic findings are recorded yet.",
   "milestones": [
     {
       "name": "Rules of Engagement established",
@@ -23,7 +17,7 @@
       "done": true
     },
     {
-      "name": "Deep Research session initiated",
+      "name": "Research execution method agreed",
       "done": true
     },
     {
@@ -54,31 +48,38 @@
   "workstreams": [
     {
       "name": "Literature discovery",
-      "task": "Locate peer-reviewed literature, record search queries and verify DOI records."
+      "task": "Locate peer-reviewed literature, record search queries and verify DOI records.",
+      "status": "Planned"
     },
     {
       "name": "Psychology and attachment",
-      "task": "Investigate anthropomorphism, trust, attachment, emotional reliance and loss."
+      "task": "Investigate anthropomorphism, trust, attachment, emotional reliance and loss.",
+      "status": "Planned"
     },
     {
       "name": "AI technology",
-      "task": "Investigate conversational memory, personalisation, embodiment and transition design."
+      "task": "Investigate conversational memory, personalisation, embodiment and transition design.",
+      "status": "Planned"
     },
     {
       "name": "Originality and research gaps",
-      "task": "Examine contradictions, counter-evidence, gaps and feasible contributions."
+      "task": "Examine contradictions, counter-evidence, gaps and feasible contributions.",
+      "status": "Planned"
     },
     {
       "name": "Research methodology",
-      "task": "Assess methods and their suitability for evidence-led candidate questions."
+      "task": "Assess methods and their suitability for evidence-led candidate questions.",
+      "status": "Planned"
     },
     {
       "name": "Ethics and law",
-      "task": "Examine consent, privacy, distress, accessibility, vulnerability and agency."
+      "task": "Examine consent, privacy, distress, accessibility, vulnerability and agency.",
+      "status": "Planned"
     },
     {
       "name": "Academic review",
-      "task": "Audit supporting evidence, limitations and assessment criteria."
+      "task": "Audit supporting evidence, limitations and assessment criteria.",
+      "status": "Planned"
     }
   ],
   "topics": [
@@ -90,33 +91,44 @@
   ],
   "reports": [
     {
-      "title": "Update 02 — Execution access and rulebook audit",
+      "title": "Update 03 — Extended research authorised",
       "date": "24 Nov 2026",
-      "findings": "Research capability check completed; the current execution interface does not expose dedicated Deep Research or sub-agent management. This is an operational finding only.",
-      "limitations": "No fresh academic database search, source screening, agent execution report or literature finding is verified.",
-      "nextSteps": "Resume dedicated research when its execution capability is available; do not substitute unapproved research modes."
+      "findings": "Preparation and scope definition are complete. The student has authorised extended academic research when dedicated Deep Research is unavailable. All other academic verification and ethical requirements remain applicable.",
+      "limitations": "This update records a research-method decision, not an academic finding. No screened or verified publications have yet been recorded.",
+      "nextSteps": "Begin exploratory literature searches across the five funding-call priorities. Record actual database access, query strings, source details and verification outcomes."
+    },
+    {
+      "title": "Update 02 — Earlier research access check",
+      "date": "24 Nov 2026",
+      "findings": "Dedicated research access was unavailable at the time of this check.",
+      "limitations": "No academic literature findings were verified during this check.",
+      "nextSteps": "Superseded by Update 03: extended academic research is now authorised."
     },
     {
       "title": "Update 01 — Research protocol and evidence status (planning only)",
       "date": "24 Nov 2026",
       "findings": "Document review completed: the official brief confirms five research priorities, a 6–12 month proposed project duration and a maximum funding limit of £120,000. This is an assessment-brief finding, not an academic literature finding.",
       "searchLog": "Planned academic discovery: anthropomorphism and conversational AI; AI companion memory and attachment; emotional reliance and dependency; AI companion model updates and loss; persona portability and responsible transitions. No actual database search logs have been received.",
-      "limitations": "The last confirmed Deep Research state was awaiting plan approval. Neither a later execution report nor individual active-agent records are accessible. No external literature findings, counts or research gaps are asserted.",
-      "nextSteps": "Retrieve and verify the dedicated research report; screen sources, record actual databases and queries, verify full text and DOI metadata, then compare evidence and counter-evidence. Publish only verified status and high-level progress, not unpublished proposal materials."
+      "limitations": "No external literature findings or source counts were verified during planning.",
+      "nextSteps": "Superseded by Update 03: proceed with authorised extended academic research."
     }
   ],
   "history": [
     {
       "date": "24 Nov 2026",
-      "event": "Update 02: dedicated research and sub-agent execution access checked; access unavailable. Academic research continuation not confirmed."
+      "event": "Update 03: extended academic research authorised; dashboard refocused on evidence and milestones."
     },
     {
       "date": "24 Nov 2026",
-      "event": "Update 01 committed: confirmed research planning, checked for execution evidence, and recorded missing live data access."
+      "event": "Update 02: earlier dedicated research access check; no literature findings verified."
     },
     {
       "date": "24 Nov 2026",
-      "event": "Research monitoring rule C23 added; verified reporting required."
+      "event": "Update 01 committed: research planning recorded."
+    },
+    {
+      "date": "24 Nov 2026",
+      "event": "Research monitoring rule C23 added; verified progress reporting required."
     },
     {
       "date": "24 Nov 2026",
@@ -127,5 +139,38 @@
       "event": "Assessment brief and funding call reviewed."
     }
   ],
-  "restrictedSources": []
+  "restrictedSources": [],
+  "phases": [
+    {
+      "name": "Preparation and research scope",
+      "status": "Completed",
+      "detail": "Official assessment brief, Call 2 priorities, and research standards reviewed; extended research authorised."
+    },
+    {
+      "name": "Exploratory literature discovery",
+      "status": "Next",
+      "detail": "Search across all five funding-call priorities; document actual searches and screen sources."
+    },
+    {
+      "name": "Source verification and evidence extraction",
+      "status": "Pending",
+      "detail": "Verify publication records, access full text and record supporting passages."
+    },
+    {
+      "name": "Critical synthesis and research gap",
+      "status": "Pending",
+      "detail": "Compare findings, counter-evidence and methodological limitations."
+    },
+    {
+      "name": "Research definition and methodology",
+      "status": "Pending",
+      "detail": "Select an evidence-backed topic and justify research questions, methods, ethics and feasibility."
+    },
+    {
+      "name": "Proposal and presentation",
+      "status": "Pending",
+      "detail": "Draft within official word limits and review against the assessment rubric."
+    }
+  ],
+  "sources": []
 }
