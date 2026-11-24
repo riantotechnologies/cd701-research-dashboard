@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "observedAt": "2026-11-24T23:15:04Z",
   "publishedDate": "2026-11-24",
-  "state": "Research plan submitted",
-  "summary": "The latest recorded Deep Research state was awaiting plan approval. Current execution records have not been exposed to this dashboard.",
+  "state": "Update 01 — Research scope and status check",
+  "summary": "Assessment requirements and the five research priorities are confirmed. A dedicated Deep Research session was initiated, but no later execution report or agent telemetry is accessible. External literature discovery is not independently verified; the published update distinguishes confirmed planning from research findings.",
   "sessionsInitiated": 1,
   "telemetry": {
     "connected": false,
-    "reason": "The research execution service does not expose an agent activity or progress feed to this dashboard. No numerical active-agent count is published without verified records."
+    "reason": "No live execution feed is available. Agent counts and individual activity are not published without confirmed execution records."
   },
   "milestones": [
     {
@@ -88,8 +88,21 @@
     "Model changes and loss",
     "Responsible transitions and portability"
   ],
-  "reports": [],
+  "reports": [
+    {
+      "title": "Update 01 — Research protocol and evidence status (planning only)",
+      "date": "24 Nov 2026",
+      "findings": "Document review completed: the official brief confirms five research priorities, a 6–12 month proposed project duration and a maximum funding limit of £120,000. This is an assessment-brief finding, not an academic literature finding.",
+      "searchLog": "Planned academic discovery: anthropomorphism and conversational AI; AI companion memory and attachment; emotional reliance and dependency; AI companion model updates and loss; persona portability and responsible transitions. No actual database search logs have been received.",
+      "limitations": "The last confirmed Deep Research state was awaiting plan approval. Neither a later execution report nor individual active-agent records are accessible. No external literature findings, counts or research gaps are asserted.",
+      "nextSteps": "Retrieve and verify the dedicated research report; screen sources, record actual databases and queries, verify full text and DOI metadata, then compare evidence and counter-evidence. Publish only verified status and high-level progress, not unpublished proposal materials."
+    }
+  ],
   "history": [
+    {
+      "date": "24 Nov 2026",
+      "event": "Update 01 committed: confirmed research planning, checked for execution evidence, and recorded missing live data access."
+    },
     {
       "date": "24 Nov 2026",
       "event": "Research monitoring rule C23 added; verified reporting required."
