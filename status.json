@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-11-24T23:15:04Z",
+  "publishedDate": "2026-11-24",
+  "state": "Research plan submitted",
+  "summary": "The latest recorded Deep Research state was awaiting plan approval. Current execution records have not been exposed to this dashboard.",
+  "sessionsInitiated": 1,
+  "telemetry": {
+    "connected": false,
+    "reason": "The research execution service does not expose an agent activity or progress feed to this dashboard. No numerical active-agent count is published without verified records."
+  },
+  "milestones": [
+    {
+      "name": "Rules of Engagement established",
+      "done": true
+    },
+    {
+      "name": "Assessment brief reviewed",
+      "done": true
+    },
+    {
+      "name": "Funding call reviewed",
+      "done": true
+    },
+    {
+      "name": "Deep Research session initiated",
+      "done": true
+    },
+    {
+      "name": "Literature results verified",
+      "done": false
+    },
+    {
+      "name": "Full-text evidence confirmed",
+      "done": false
+    },
+    {
+      "name": "Research gap established",
+      "done": false
+    },
+    {
+      "name": "Research questions and methods agreed",
+      "done": false
+    },
+    {
+      "name": "Proposal drafted and audited",
+      "done": false
+    },
+    {
+      "name": "Presentation and submission prepared",
+      "done": false
+    }
+  ],
+  "workstreams": [
+    {
+      "name": "Literature discovery",
+      "task": "Locate peer-reviewed literature, record search queries and verify DOI records."
+    },
+    {
+      "name": "Psychology and attachment",
+      "task": "Investigate anthropomorphism, trust, attachment, emotional reliance and loss."
+    },
+    {
+      "name": "AI technology",
+      "task": "Investigate conversational memory, personalisation, embodiment and transition design."
+    },
+    {
+      "name": "Originality and research gaps",
+      "task": "Examine contradictions, counter-evidence, gaps and feasible contributions."
+    },
+    {
+      "name": "Research methodology",
+      "task": "Assess methods and their suitability for evidence-led candidate questions."
+    },
+    {
+      "name": "Ethics and law",
+      "task": "Examine consent, privacy, distress, accessibility, vulnerability and agency."
+    },
+    {
+      "name": "Academic review",
+      "task": "Audit supporting evidence, limitations and assessment criteria."
+    }
+  ],
+  "topics": [
+    "Anthropomorphism and perceived agency",
+    "Memory and personalisation",
+    "Beneficial engagement and dependency",
+    "Model changes and loss",
+    "Responsible transitions and portability"
+  ],
+  "reports": [],
+  "history": [
+    {
+      "date": "24 Nov 2026",
+      "event": "Research monitoring rule C23 added; verified reporting required."
+    },
+    {
+      "date": "24 Nov 2026",
+      "event": "Deep Research plan submitted; last recorded state awaiting approval."
+    },
+    {
+      "date": "24 Nov 2026",
+      "event": "Assessment brief and funding call reviewed."
+    }
+  ],
+  "restrictedSources": []
+}
