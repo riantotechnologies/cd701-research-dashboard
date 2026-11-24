@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "observedAt": "2026-11-24T23:15:04Z",
   "publishedDate": "2026-11-24",
-  "state": "Update 01 — Research scope and status check",
-  "summary": "Assessment requirements and the five research priorities are confirmed. A dedicated Deep Research session was initiated, but no later execution report or agent telemetry is accessible. External literature discovery is not independently verified; the published update distinguishes confirmed planning from research findings.",
+  "state": "Update 02 — Research execution access blocked",
+  "summary": "The research coordinator checked the available execution capabilities again. Dedicated Deep Research and sub-agent orchestration are not exposed in this session. The original research session's later execution status cannot be verified. Rule C21 prohibits substituting ordinary web searches without explicit approval.",
   "sessionsInitiated": 1,
   "telemetry": {
     "connected": false,
-    "reason": "No live execution feed is available. Agent counts and individual activity are not published without confirmed execution records."
+    "reason": "Agent execution records cannot be retrieved from the dedicated research session. No numerical counter is published without verified records."
   },
   "milestones": [
     {
@@ -90,6 +90,13 @@
   ],
   "reports": [
     {
+      "title": "Update 02 — Execution access and rulebook audit",
+      "date": "24 Nov 2026",
+      "findings": "Research capability check completed; the current execution interface does not expose dedicated Deep Research or sub-agent management. This is an operational finding only.",
+      "limitations": "No fresh academic database search, source screening, agent execution report or literature finding is verified.",
+      "nextSteps": "Resume dedicated research when its execution capability is available; do not substitute unapproved research modes."
+    },
+    {
       "title": "Update 01 — Research protocol and evidence status (planning only)",
       "date": "24 Nov 2026",
       "findings": "Document review completed: the official brief confirms five research priorities, a 6–12 month proposed project duration and a maximum funding limit of £120,000. This is an assessment-brief finding, not an academic literature finding.",
@@ -99,6 +106,10 @@
     }
   ],
   "history": [
+    {
+      "date": "24 Nov 2026",
+      "event": "Update 02: dedicated research and sub-agent execution access checked; access unavailable. Academic research continuation not confirmed."
+    },
     {
       "date": "24 Nov 2026",
       "event": "Update 01 committed: confirmed research planning, checked for execution evidence, and recorded missing live data access."
