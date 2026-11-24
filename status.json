@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publishedDate": "2026-11-24",
-  "state": "Preparation complete · Exploratory literature research next",
-  "summary": "Extended academic research is authorised under Rule C21.1. The assessment brief, funding call and research standards are established. The next activity is the initial academic literature search. No new academic findings are recorded yet.",
+  "state": "Phase 01 — Initial literature discovery completed; verification continues",
+  "summary": "The first exploratory academic search produced ten retained publication records across the funding-call priorities. Three published full-text articles were inspected in relevant sections; one additional paper's preprint was inspected alongside its published record. Other evidence is provisional pending full-text review and student confirmation. No final research question or gap has been selected.",
   "milestones": [
     {
       "name": "Rules of Engagement established",
@@ -49,22 +49,22 @@
     {
       "name": "Literature discovery",
       "task": "Locate peer-reviewed literature, record search queries and verify DOI records.",
-      "status": "Planned"
+      "status": "Initial search completed"
     },
     {
       "name": "Psychology and attachment",
       "task": "Investigate anthropomorphism, trust, attachment, emotional reliance and loss.",
-      "status": "Planned"
+      "status": "Initial search completed"
     },
     {
       "name": "AI technology",
       "task": "Investigate conversational memory, personalisation, embodiment and transition design.",
-      "status": "Planned"
+      "status": "Initial search completed"
     },
     {
       "name": "Originality and research gaps",
       "task": "Examine contradictions, counter-evidence, gaps and feasible contributions.",
-      "status": "Planned"
+      "status": "Initial search completed"
     },
     {
       "name": "Research methodology",
@@ -79,7 +79,7 @@
     {
       "name": "Academic review",
       "task": "Audit supporting evidence, limitations and assessment criteria.",
-      "status": "Planned"
+      "status": "In progress"
     }
   ],
   "topics": [
@@ -90,6 +90,14 @@
     "Responsible transitions and portability"
   ],
   "reports": [
+    {
+      "title": "Update 04 — First exploratory literature search",
+      "date": "24 Nov 2026",
+      "searchLog": "Multi-query scholarly web searches across all five funding-call priorities; publisher, university, PubMed/PMC, DBLP and arXiv records consulted. Ten publication records retained for this first batch. Overall search-result denominator not available.",
+      "findings": "Verified research records address relationship development, reported benefits and risks, disruptions and memory/design interventions. Published work directly addresses safe endings and memory controls; originality requires more precise comparison.",
+      "limitations": "Publication-record verification is not student confirmation. Some sources are abstract-only or indexed excerpts; correction/retraction checks and full-text review remain incomplete. No final gap or method selected.",
+      "nextSteps": "Acquire restricted full texts, expand search and citation tracing, assess design evaluations, and compare candidate research directions."
+    },
     {
       "title": "Update 03 — Extended research authorised",
       "date": "24 Nov 2026",
@@ -116,6 +124,10 @@
   "history": [
     {
       "date": "24 Nov 2026",
+      "event": "Update 04: initial academic search conducted; ten publication records retained; evidence and access limitations documented."
+    },
+    {
+      "date": "24 Nov 2026",
       "event": "Update 03: extended academic research authorised; dashboard refocused on evidence and milestones."
     },
     {
@@ -139,7 +151,23 @@
       "event": "Assessment brief and funding call reviewed."
     }
   ],
-  "restrictedSources": [],
+  "restrictedSources": [
+    {
+      "publication": "De Freitas et al., AI Companions Reduce Loneliness",
+      "doi": "10.1093/jcr/ucaf040",
+      "status": "Publisher purchase access; Harvard-hosted PDF link located but not inspected."
+    },
+    {
+      "publication": "Laestadius et al., Too human and not human enough",
+      "doi": "10.1177/14614448221142007",
+      "status": "Publisher abstract accessible; full text requires access check. Third-party PDF located but not inspected."
+    },
+    {
+      "publication": "De Freitas et al., Mourning the loss of AI companions",
+      "doi": "10.1038/s41562-026-02569-3",
+      "status": "Publisher subscription preview; university library access requested."
+    }
+  ],
   "phases": [
     {
       "name": "Preparation and research scope",
@@ -148,13 +176,13 @@
     },
     {
       "name": "Exploratory literature discovery",
-      "status": "Next",
-      "detail": "Search across all five funding-call priorities; document actual searches and screen sources."
+      "status": "In progress",
+      "detail": "Initial searches across all five priorities completed; ten bibliographic records retained. Broader screening and citation tracing remain necessary."
     },
     {
       "name": "Source verification and evidence extraction",
-      "status": "Pending",
-      "detail": "Verify publication records, access full text and record supporting passages."
+      "status": "In progress",
+      "detail": "Publication metadata checked; full-text and correction-status checks remain incomplete."
     },
     {
       "name": "Critical synthesis and research gap",
@@ -172,5 +200,66 @@
       "detail": "Draft within official word limits and review against the assessment rubric."
     }
   ],
-  "sources": []
+  "sources": [
+    {
+      "reference": "Croes and Antheunis (2021) — bibliographic record verified; student confirmation pending. Publisher and Tilburg University record; full-text sections consulted",
+      "title": "Can we be friends with Mitsuku? A longitudinal study on the process of relationship formation between humans and a social chatbot",
+      "url": "https://doi.org/10.1177/0265407520959463",
+      "verified": true
+    },
+    {
+      "reference": "Skjuve et al. (2022) — bibliographic record verified; student confirmation pending. SINTEF institutional record; abstract",
+      "title": "A longitudinal study of human–chatbot relationships",
+      "url": "https://doi.org/10.1016/j.ijhcs.2022.102903",
+      "verified": true
+    },
+    {
+      "reference": "Skjuve, Følstad and Brandtzæg (2023) — bibliographic record verified; student confirmation pending. Publisher record; full-text sections consulted",
+      "title": "A Longitudinal Study of Self-Disclosure in Human–Chatbot Relationships",
+      "url": "https://doi.org/10.1093/iwc/iwad022",
+      "verified": true
+    },
+    {
+      "reference": "Laestadius et al. (2024) — bibliographic record verified; student confirmation pending. Publisher record; abstract",
+      "title": "Too human and not human enough: A grounded theory analysis of mental health harms from emotional dependence on the social chatbot Replika",
+      "url": "https://doi.org/10.1177/14614448221142007",
+      "verified": true
+    },
+    {
+      "reference": "Banks (2024) — bibliographic record verified; student confirmation pending. Open-access publisher record; full-text sections consulted",
+      "title": "Deletion, departure, death: Experiences of AI companion loss",
+      "url": "https://doi.org/10.1177/02654075241269688",
+      "verified": true
+    },
+    {
+      "reference": "De Freitas et al. (2026; online 2025) — bibliographic record verified; student confirmation pending. Publisher record; abstract",
+      "title": "AI Companions Reduce Loneliness",
+      "url": "https://doi.org/10.1093/jcr/ucaf040",
+      "verified": true
+    },
+    {
+      "reference": "De Freitas et al. (2026) — bibliographic record verified; student confirmation pending. Publisher and PubMed indexed records; abstract",
+      "title": "Mourning the loss of AI companions",
+      "url": "https://doi.org/10.1038/s41562-026-02569-3",
+      "verified": true
+    },
+    {
+      "reference": "Alcívar Ponce et al. (2026) — bibliographic record verified; student confirmation pending. Publisher and PubMed indexed records; abstract and indexed excerpts",
+      "title": "Emotional Dependency and Parasocial Grief Following the Alteration or Loss of Companion Artificial Intelligences: A Systematic Review",
+      "url": "https://doi.org/10.3390/bs16091548",
+      "verified": true
+    },
+    {
+      "reference": "Jiang et al. (2026) — bibliographic record verified; student confirmation pending. ACM indexed record and excerpts; full-text access not confirmed",
+      "title": "RECALLbot: Designing Agentic Memory and Reciprocal Disclosure for Human–Chatbot Relationships",
+      "url": "https://doi.org/10.1145/3772318.3790714",
+      "verified": true
+    },
+    {
+      "reference": "Poonsiriwong et al. (2026) — bibliographic record verified; student confirmation pending. ACM proceedings and DBLP record; arXiv v2 sections consulted; published full text not checked",
+      "title": "\"Death\" of a Chatbot: Investigating and Designing Toward Psychologically Safe Endings for Human-AI Relationships",
+      "url": "https://doi.org/10.1145/3800645.3813083",
+      "verified": true
+    }
+  ]
 }
