@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "publishedDate": "2026-11-24",
-  "state": "Phase 01 — Initial literature discovery completed; verification continues",
-  "summary": "The first exploratory academic search produced ten retained publication records across the funding-call priorities. Three published full-text articles were inspected in relevant sections; one additional paper's preprint was inspected alongside its published record. Other evidence is provisional pending full-text review and student confirmation. No final research question or gap has been selected.",
+  "state": "Phase 01–02 · Focused literature investigation and evidence verification",
+  "summary": "A second search batch retained five new published records, including an existing study of advance notice and technical memory portability research. The team-independent research method is extended academic search. Source records are not student-confirmed and several full texts remain to be examined.",
   "milestones": [
     {
       "name": "Rules of Engagement established",
@@ -49,22 +49,22 @@
     {
       "name": "Literature discovery",
       "task": "Locate peer-reviewed literature, record search queries and verify DOI records.",
-      "status": "Initial search completed"
+      "status": "Evidence review underway"
     },
     {
       "name": "Psychology and attachment",
       "task": "Investigate anthropomorphism, trust, attachment, emotional reliance and loss.",
-      "status": "Initial search completed"
+      "status": "Evidence review underway"
     },
     {
       "name": "AI technology",
       "task": "Investigate conversational memory, personalisation, embodiment and transition design.",
-      "status": "Initial search completed"
+      "status": "Evidence review underway"
     },
     {
       "name": "Originality and research gaps",
       "task": "Examine contradictions, counter-evidence, gaps and feasible contributions.",
-      "status": "Initial search completed"
+      "status": "Evidence review underway"
     },
     {
       "name": "Research methodology",
@@ -79,7 +79,7 @@
     {
       "name": "Academic review",
       "task": "Audit supporting evidence, limitations and assessment criteria.",
-      "status": "In progress"
+      "status": "Evidence review underway"
     }
   ],
   "topics": [
@@ -90,6 +90,15 @@
     "Responsible transitions and portability"
   ],
   "reports": [
+    {
+      "title": "Update 05 — Focused investigation of transitions and memory portability",
+      "date": "24 Nov 2026",
+      "searchLog": "Scholarly web discovery across ACM, OUP, JMIR, ACL Anthology, PubMed, institutional records and arXiv. Five new published records retained; a technical preprint separately identified. Overall screened denominator unavailable.",
+      "findings": "Existing research includes experimental advance-warning comparisons, qualitative privacy and platform-control studies, conceptual offboarding guidance, and technical memory portability benchmarks. Bibliographic verification is distinguished from full-text and student confirmation.",
+      "counterEvidence": "Advance warning and technical memory portability are not entirely new research subjects. Do not claim novelty simply for either feature.",
+      "limitations": "Two new records abstract-only; published version comparison pending for one author preprint. No comprehensive retraction audit, systematic saturation or confirmed research gap yet.",
+      "nextSteps": "Compare published designs and outcomes, check remaining full texts, expand citation tracing, and assess the most defensible focused computing contribution."
+    },
     {
       "title": "Update 04 — First exploratory literature search",
       "date": "24 Nov 2026",
@@ -122,6 +131,10 @@
     }
   ],
   "history": [
+    {
+      "date": "24 Nov 2026",
+      "event": "Update 05: focused search completed; five additional published records retained. Existing intervention evidence identified; routine research continuation authorised."
+    },
     {
       "date": "24 Nov 2026",
       "event": "Update 04: initial academic search conducted; ten publication records retained; evidence and access limitations documented."
@@ -166,6 +179,11 @@
       "publication": "De Freitas et al., Mourning the loss of AI companions",
       "doi": "10.1038/s41562-026-02569-3",
       "status": "Publisher subscription preview; university library access requested."
+    },
+    {
+      "publication": "Kim et al. (2026), No Time to Say Goodbye",
+      "doi": "10.1145/3772363.3798687",
+      "status": "ACM full text retrieval failed; university abstract available. Paywall not established; check library/author copy."
     }
   ],
   "phases": [
@@ -177,12 +195,12 @@
     {
       "name": "Exploratory literature discovery",
       "status": "In progress",
-      "detail": "Initial searches across all five priorities completed; ten bibliographic records retained. Broader screening and citation tracing remain necessary."
+      "detail": "Focused searches on termination, privacy, user agency, and memory portability; five additional published records retained. Citation tracing and breadth checks continue."
     },
     {
       "name": "Source verification and evidence extraction",
       "status": "In progress",
-      "detail": "Publication metadata checked; full-text and correction-status checks remain incomplete."
+      "detail": "Published sections consulted for two new papers, preprint sections for one; two abstract-only records. Full text and final correction checks remain incomplete."
     },
     {
       "name": "Critical synthesis and research gap",
@@ -259,6 +277,36 @@
       "reference": "Poonsiriwong et al. (2026) — bibliographic record verified; student confirmation pending. ACM proceedings and DBLP record; arXiv v2 sections consulted; published full text not checked",
       "title": "\"Death\" of a Chatbot: Investigating and Designing Toward Psychologically Safe Endings for Human-AI Relationships",
       "url": "https://doi.org/10.1145/3800645.3813083",
+      "verified": true
+    },
+    {
+      "reference": "Kim et al. (2026) — University research record and DBLP; abstract only; ACM full-text retrieval unsuccessful.",
+      "title": "No Time to Say Goodbye: Emotional Loss Responses to Sudden Termination in Immersive AI Interactions",
+      "url": "https://doi.org/10.1145/3772363.3798687",
+      "verified": true
+    },
+    {
+      "reference": "Chiu and Foote (2026) — Oxford Academic published article sections consulted; student confirmation pending.",
+      "title": "Chatting with confidants or corporations? Privacy management with AI companions",
+      "url": "https://doi.org/10.1093/jcmc/zmag014",
+      "verified": true
+    },
+    {
+      "reference": "Kelly et al. (2026) — JMIR publisher and PubMed; published viewpoint sections consulted; conceptual not primary evaluation.",
+      "title": "Artificial Intelligence Discontinuation Effects (AI-DICE): An Emerging Phenomenon in Mental Health Applications",
+      "url": "https://doi.org/10.2196/85419",
+      "verified": true
+    },
+    {
+      "reference": "Lee et al. (2026) — Conference record corroborated by university and arXiv v3 with proceedings DOI; preprint sections consulted, published version comparison pending.",
+      "title": "Large Language Lovers: Lived Experiences of Negotiating Agency and Platform Control in AI Companionship",
+      "url": "https://doi.org/10.1145/3805689.3806746",
+      "verified": true
+    },
+    {
+      "reference": "Li et al. (2026) — Official ACL Anthology proceedings record; abstract only, technical benchmarking rather than human evaluation.",
+      "title": "BMAM: Brain-inspired Multi-Agent Memory Framework",
+      "url": "https://doi.org/10.18653/v1/2026.findings-acl.1973",
       "verified": true
     }
   ]
